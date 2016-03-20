@@ -1,10 +1,5 @@
 <?php
-session_start();
-//session_destroy();
-if(!isset($_SESSION['username'])){
-	header('location: login.php');
-}
-error_reporting(1);
+	require_once(__DIR__ . '/admin_menu.php');
 ?>
 <!doctype html>
 <html lang="en">

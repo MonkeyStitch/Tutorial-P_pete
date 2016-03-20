@@ -12,6 +12,8 @@
 
 	echo $x++ . '<br>';
 	echo $x+1 . '<br>';
+	echo $x++ . '<br>';
+	echo $x++ . '<br>';
 
 
 ?>
